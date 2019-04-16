@@ -12,6 +12,7 @@ namespace ConsoleApp
         {
             int R = Console.Read();
             Console.WriteLine(R);
+            Console.Read();
         }
     }
 }
