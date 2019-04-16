@@ -97,6 +97,10 @@ namespace ConsoleApp
             }
 
             Console.WriteLine(weekstring);
+
+
+
+            ///////////////////////////////////////////////////////////////
         }
     }
 }
