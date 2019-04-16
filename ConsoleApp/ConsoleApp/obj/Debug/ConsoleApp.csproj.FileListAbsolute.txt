@@ -1,7 +1,6 @@
 D:\GitRepository\CSharpLearn\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
 D:\GitRepository\CSharpLearn\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
 D:\GitRepository\CSharpLearn\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
-D:\GitRepository\CSharpLearn\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
 D:\GitRepository\CSharpLearn\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
 D:\GitRepository\CSharpLearn\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
 D:\GitRepository\CSharpLearn\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
