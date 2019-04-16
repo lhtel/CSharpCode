@@ -63,12 +63,40 @@ namespace ConsoleApp
             //b = ++a;
             //b = a++;
             //Console.WriteLine(b);
-            int x, y;
-            x=int.Parse(Console.ReadLine());
-            y=x*(2+x)+5*x* x-4;
-            Console.WriteLine(y);
 
+            //int x, y;
+            //x=int.Parse(Console.ReadLine());
+            //y=x*(2+x)+5*x* x-4;
+            //Console.WriteLine(y);
 
+            int y, m, d;
+            Console.WriteLine("请输入年月日：");
+            y = Convert.ToInt32(Console.ReadLine());
+            m = Convert.ToInt32(Console.ReadLine());
+            d = Convert.ToInt32(Console.ReadLine());
+
+            if (m == 1 || m == 2)
+            {
+                m += 12;
+                y--;
+            }
+
+            int week = (d + 2*m + 3*(m+1)/5 + y + y/4 - y/100 + y/400 + 1)%7;
+            string weekstring = "";
+            switch (week)
+            {
+                case 0: weekstring = "星期日"; break;
+                case 1: weekstring = "星期一"; break;
+                case 2: weekstring = "星期二"; break;
+                case 3: weekstring = "星期三"; break;
+                case 4: weekstring = "星期四"; break;
+                case 5: weekstring = "星期五"; break;
+                case 6: weekstring = "星期六"; break;
+                default:
+                    break;
+            }
+
+            Console.WriteLine(weekstring);
         }
     }
 }
